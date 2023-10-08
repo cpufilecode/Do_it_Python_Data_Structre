@@ -8,7 +8,7 @@ def reverse_array(a: MutableMapping) -> None:
 if __name__ == '__main__':
     print('배열 원소를 역순으로 정렬합니다.')
     nx = int(input('원소 수를 입력하세요.: '))
-    x = None * nx
+    x = [None] * nx
     
     for i in range(nx):
         x[i] = int(input(f'x[{i}]값을 입력하세요.: '))
